@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     setLoadingAnimation(true);
-    if (searchTerm == "") {
+    if (searchTerm === "") {
       alert("Type something...");
       return;
     }
